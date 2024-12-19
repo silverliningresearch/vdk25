@@ -37,7 +37,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://survalyzer.survalyzer.eu/assets/survalyzer-survey.js"></script>
 
-    <script src="scripts/data_search.js"></script>
+    <script src="scripts/Selection.js"></script>
 
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/smoothness/jquery-ui.css">
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
@@ -62,20 +62,36 @@
         setTimeout(() => {
           const listSearchHandler = () => {
             console.log("Current Page Index: ", api.fn.getCurrentPageIndex() );
-            
-            if (api.fn.getCurrentPageIndex()==2) {
-              //parse_location_info();
 
-              console.log("current_date: ", getcurrentDate);
-              
-
-            } else {
-
+            if (api.fn.getCurrentPageIndex()==1) 
+            { 
+              Q22A_set_default_selection(99); //all
             };
+            
+            if (api.fn.getCurrentPageIndex() ===57) {
+              api.fn.answers({Q22_calculating_selection_required: 1});                 
+            } else {
+              api.fn.answers({Q22_calculating_selection_required: 0});                 
+            }
+
           }    
+
+          const Q22AHandler = () => {
+            if (api.fn.getCurrentPageIndex()==58) {
+              Q22_get_selection();;
+              setTimeout(function () {
+                api.fn.goNext();
+              }, 1 * 1000); //1 second
+            } 
+            else {
+              //
+            }
+          }
           api.events.subscribe('next', listSearchHandler);
           api.events.subscribe('back', listSearchHandler);
           api.events.subscribe('startedOrContinued', listSearchHandler);
+          api.events.subscribe('next', Q22AHandler);
+
         });
       });
     </script>
