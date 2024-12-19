@@ -78,13 +78,11 @@ function Q22_get_selection()
         }
       }
     }
-
   }
 
   //console.log("count_5: ", count_equal_5, Q22_value_equal_5); 
   //console.log("count_less_than_5: ", count_less_than_5, Q22_value_less_than_5); 
   //console.log("count_all: ", count_all); 
-
 
   $('.rt-btn.rt-btn-next').show(); 
 }
