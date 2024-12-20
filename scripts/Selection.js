@@ -29,7 +29,7 @@ function Q22_get_selection()
   if ((api.fn.answers().Q22_12) && (api.fn.answers().Q22_12 !=6)) Q22_value[12] = ((api.fn.answers().Q22_12));
   if ((api.fn.answers().Q22_13) && (api.fn.answers().Q22_13 !=6)) Q22_value[13] = ((api.fn.answers().Q22_13));
   if ((api.fn.answers().Q22_14) && (api.fn.answers().Q22_14 !=6)) Q22_value[14] = ((api.fn.answers().Q22_14));
-  if ((api.fn.answers().Q22_15) && (api.fn.answers().Q22_15 !=6)) Q22_value[15] = ((api.fn.answers().Q22_15));
+  if ((api.fn.answers().Q22_Other_1) && (api.fn.answers().Q22_Other_1 !=6)) Q22_value[15] = ((api.fn.answers().Q22_Other_1));
 
   var count_equal_5 = 0;
   var count_less_than_5 =0;
@@ -76,6 +76,7 @@ function Q22_get_selection()
         for (i = 0; i < Q22_value_less_than_5.length; i++) {
           Q22A_set_default_selection(Q22_value_less_than_5[i]);
         }
+        api.fn.answers({Q22A_number_of_selection: 3-count_equal_5});
       }
     }
   }
@@ -103,7 +104,7 @@ function Q22A_set_default_selection(id)
   if ((id==12)  ||(id==99)) api.fn.answers({Q22A_selected_12:"1"});
   if ((id==13)  ||(id==99)) api.fn.answers({Q22A_selected_13:"1"});
   if ((id==14)  ||(id==99)) api.fn.answers({Q22A_selected_14:"1"});
-  if ((id==15)  ||(id==99)) api.fn.answers({Q22A_selected_15:"1"});
+  if ((id==15)  ||(id==99)) api.fn.answers({Q22A_selected_15:"1"}); // Other
 
   //console.log("show: ", id); 
 }
@@ -124,7 +125,7 @@ function Q22A_clear_all_selection()
   api.fn.answers({Q22A_selected_12:0});
   api.fn.answers({Q22A_selected_13:0});
   api.fn.answers({Q22A_selected_14:0});
-  api.fn.answers({Q22A_selected_15:0});
+  api.fn.answers({Q22A_selected_15:0}); //Other
 }
 
 function _Q22_set_test_value()
