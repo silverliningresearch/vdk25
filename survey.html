@@ -68,7 +68,7 @@
               Q22A_set_default_selection(99); //all
             };
             
-            if (api.fn.getCurrentPageIndex() ===57) {
+            if (api.fn.getCurrentPageIndex() ===58) {
               api.fn.answers({Q22_calculating_selection_required: 1});                 
             } else {
               api.fn.answers({Q22_calculating_selection_required: 0});                 
@@ -77,7 +77,7 @@
           }    
 
           const Q22AHandler = () => {
-            if (api.fn.getCurrentPageIndex()==58) {
+            if (api.fn.getCurrentPageIndex()==59) {
               Q22_get_selection();;
               setTimeout(function () {
                 api.fn.goNext();
