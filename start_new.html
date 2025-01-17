@@ -5,7 +5,7 @@
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <script src="scripts/PrepareData.js"></script>
   <script src="scripts/CalculateData.js"></script>
-  <script type="text/javascript" src="https://silverliningresearch.github.io/daily_plan_data_sur_v3/BUD_Commercial/interview_statistics.js"></script> 
+  <script type="text/javascript" src="https://silverliningresearch.github.io/daily_plan_data_sur_v3/VDK_TU/interview_statistics.js"></script> 
 
 <style>
   
@@ -46,50 +46,25 @@
   google.charts.setOnLoadCallback(drawTable);
 
   function drawTable() {
-    //CalculateAirportAirLineReport();
+    prepareInterviewData();
     var data = new google.visualization.DataTable();
 
-    data.addColumn('string', 'Time');
-    data.addColumn('string', 'Flight');
-    data.addColumn('string', 'To');
-    data.addColumn('string', 'Schengen');
-    //data.addColumn('string', 'DOOP');
-    data.addColumn('number', 'Remaining Flights');
-    data.addColumn('number', 'Quota');
+    //data.addColumn('string', 'Date');
+    data.addColumn('string', 'Location');
+    data.addColumn('string', 'Interviewer');
     data.addColumn('number', 'Completed');
-    data.addColumn('number', 'Missing');
-    data.addColumn('number', 'Missing %');
-    data.addColumn('number', 'Priority Score');
-    data.addColumn('number', 'Priority');
-    
+   
     //add data
-    for (i = 0; i < daily_plan_data.length; i++) {
-      var row = daily_plan_data[i];
+    for (i = 0; i < interview_data.length; i++) {
+      var row = interview_data[i];
         { 
-            data.addRows([[row.Date_Time, 
-            row.Flight, row.DestName,  row.Schengen,
-            //row.doop, 
-            Number(row.remaining_flights), 
-            Number(row.Quota), Number(row.Completed), Number(row.Difference), 
-            Number(row.Difference_percent), 
-            Number(row.Prioritisation_score), 
-            Number(row.Priority)]]);
+            data.addRows([[
+            //row.InterviewDate, 
+            row.Q0B, row.InterviewerID,
+            Number(row.completes)]]);
         }
       }
 
-    //highlight priority one
-    var priority_col = data.getNumberOfColumns()-1; //last one
-    for (var i = 0; i < data.getNumberOfRows(); i++) {
-      for (j=0; j < data.getNumberOfColumns(); j++) {
-        if (data.getValue(i, priority_col) ==1) 
-        {
-          data.setProperty(i, j, 'style', 'background-color:#FFCCCB');
-        }
-        else {
-          //data.setProperty(i, j, 'style', 'background-color:white; font-size: 15px');
-        }
-      }
-    }
 
     //create a dashboard.
     var dashboard = new google.visualization.Dashboard(
@@ -97,10 +72,10 @@
 
     //create fiter
     var options = {
-      'filterColumnLabel': 'Schengen',
+      'filterColumnLabel': 'Location',
       "ui": {"label": "", 
             "labelStacking": 'horizotal',
-            "caption": "Filter by Schengen/Non-Schengen",
+            "caption": "Filter by Location",
             }
     };
     
@@ -125,39 +100,21 @@
     dashboard.bind(tableFilter, tableChart);
 
     var view = new google.visualization.DataView(data);
-    view.hideColumns([priority_col, priority_col-1]); //hide priority one
     //document.getElementById("filter_div").style.display = "none";
     dashboard.draw(view);
 
      //overall_status
-    var overall_status =  "Total quota: " + total_quota;
-    overall_status += " - Total completed: " + total_completed + " (" + total_completed_percent + "%)";
+    //var overall_status =  "Total quota: " + total_quota;
+    var overall_status =  "";
+    overall_status += "Today completed: " + total_completed;
     document.getElementById("overall_status").innerHTML =overall_status + " | " + "Data updated at " + download_time;
  }
-
-function start_new_interview() {
- 
-  console.log("start_new_interview");
- 
-  let url = "https://silverliningresearch.github.io/BUD_Commercial/survey.html?";
-  
-  //
-  if (flightForInterview && flightForInterview.Flight) url = url + "urlVar01=" + flightForInterview.Flight;
-  if (flightForInterview && flightForInterview.DestName) url = url + "&urlVar02=" + flightForInterview.DestName;
-  if (flightForInterview && flightForInterview.Dest) url = url + "&urlVar03=" + flightForInterview.Dest;
-  if (flightForInterview && flightForInterview.Airline) url = url + "&urlVar04=" + flightForInterview.Airline;
-  
-  localStorage.clear();
-  document.getElementById('inputFlightCodeID').value = "";
-  window.location.href = url;
-}
-
 
 </script>
 </head>
 <body>
 
-  <script>
+<script>
     function start_new_interview() {
       console.log("start_new_interview");
       window.localStorage.clear();
@@ -173,7 +130,7 @@ function start_new_interview() {
     }
 
 </script>
-  <!-- <h2>BER PASSENGER SURVEY</h2> -->
+
   </br>
   </br>
   <button onclick="start_new_interview()" class="button red">Start a new interview</button>
@@ -190,11 +147,13 @@ function start_new_interview() {
   </br>
   </div> 
   
-  <div id="dashboard_div">
-    <!--Divs that will hold each control and chart-->
-    <div id="filter_div" style="font-size: 15px"> </div>
+  <h4 id="overall_status"></h4>
+    <div id="dashboard_div">
+      <!--Divs that will hold each control and chart-->
+      <div id="filter_div" style="font-size: 15px"> </div>
       </br>
-    <div id="table_div"></div>
+     
+      <div id="table_div"></div>
   </div>
 
 </body>
