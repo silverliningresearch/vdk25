@@ -857,7 +857,7 @@
         "Storrelse": "Lille"
     },
     {
-        "Navn": "VINGSTED HOTEL OG KONFERENCECENTER",
+        "Navn": "THE NOTE (SCANDIC JACOB GADE)",
         "Kommune": "VEJLE",
         "Otype": 1,
         "Landsdel": 8,
