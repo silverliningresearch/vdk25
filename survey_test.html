@@ -30,7 +30,7 @@
 
   <body>
     <survalyzer-survey
-      surveyhash="heajixqvna"
+      surveyhash="urjbowszlo"
       tenant="silverlining"
     ></survalyzer-survey>
 
@@ -78,7 +78,7 @@
               hide_outlet_search_box();
             }
             
-            if (api.fn.getCurrentPageIndex() ===65) {
+            if (api.fn.getCurrentPageIndex() ===64) {
               console.log("condition for calculating..." );
               api.fn.answers({Q22_calculating_selection_required: 1});                 
             } else {
@@ -87,7 +87,7 @@
           }    
 
           const Q22AHandler = () => {
-            if (api.fn.getCurrentPageIndex()==66) {
+            if (api.fn.getCurrentPageIndex()==65) {
               console.log("calculating..." );
               Q22_get_selection();;
               setTimeout(function () {
