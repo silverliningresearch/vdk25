@@ -82,18 +82,18 @@ function select_data(currentOutlet) {
   if (item_in_list_found(outletsList, currentOutlet.Show))
   {
     console.log('saving outlet data...');
-    api.fn.answers({Q0B:  currentOutlet.Navn});
-    api.fn.answers({Q0C:  currentOutlet.Navn});
+    api.fn.answers({Q0B:  currentOutlet.Navn.toUpperCase()});
+    api.fn.answers({Q0C:  currentOutlet.Navn.toUpperCase()});
     api.fn.answers({Q0D:  currentOutlet.Otype}); //Overnatningsform
-    api.fn.answers({Kommune:  currentOutlet.Kommune});
-    api.fn.answers({destination_name:  currentOutlet.Dest});
+    api.fn.answers({Kommune:  currentOutlet.Kommune.toUpperCase()});
+    api.fn.answers({destination_name:  currentOutlet.Dest.toUpperCase()});
 
 
-    api.fn.answers({urlVar20:  currentOutlet.Navn});
-    api.fn.answers({urlVar19:  currentOutlet.Navn});
+    api.fn.answers({urlVar20:  currentOutlet.Navn.toUpperCase()});
+    api.fn.answers({urlVar19:  currentOutlet.Navn.toUpperCase()});
     api.fn.answers({urlVar18:  currentOutlet.Otype}); //Overnatningsform
-    api.fn.answers({urlVar17:  currentOutlet.Kommune});
-    api.fn.answers({urlVar16:  currentOutlet.Dest});
+    api.fn.answers({urlVar17:  currentOutlet.Kommune.toUpperCase()});
+    api.fn.answers({urlVar16:  currentOutlet.Dest.toUpperCase()});
     
   }
   else
