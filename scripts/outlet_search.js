@@ -22,57 +22,90 @@ function load_outlets_list() {
   var area_survey  = api.fn.answers().Q0A_DST;
   var temp_data = JSON.parse(search_list);
  
-  var area = area_survey;
+  var Landsdel = area_survey;
 
   switch(area_survey) {
     case 7:          
     case 8:              
-      area = 7;
+    Landsdel = 7;
       break;
 
     case 9:          
-      area = 8;
+    Landsdel = 8;
       break;
   
     case 10:          
     case 11:              
-      area = 9;    
+    Landsdel = 9;    
       break;
 
     case 12:          
-      area = 10;
+    Landsdel = 10;
       break;
 
     case 13:          
     case 14:              
-      area = 11;    
+      Landsdel = 11;    
       break;
   
       
     default:
-      area = area_survey;   
+      Landsdel = area_survey;   
       break;
   }
 
   console.log("load_outlet_code started...");
   console.log("area_survey...", area_survey);
-  console.log("area ...", area);
+  console.log("area ...", Landsdel);
 
   outletsList = [];
 
   var i;
-
   for (i = 0; i<temp_data.length; i++ )
   {
     item = temp_data[i];
-    if ((item["Landsdel"] == area))
+    var selected = false;
+    if ((item["Landsdel"] == Landsdel))
     { 
-      item.Show = item.Navn;
-      outletsList.push(item);
+      switch(area_survey) {
+        case 7:   
+          if (item["Kommune"] != "ODENSE") selected = true;
+          break;
+
+        case 8:   
+          if (item["Kommune"] == "ODENSE") selected = true;
+          break;
+
+        case 10:   
+          if (item["Kommune"] != "AARHUS") selected = true;
+          break;
+
+        case 11:   
+          if (item["Kommune"] == "AARHUS") selected = true;
+          break;
+
+        case 13:   
+          if (item["Kommune"] != "AALBORG") selected = true;
+          break;
+
+        case 14:   
+          if (item["Kommune"] == "AALBORG") selected = true;
+          break;
+      
+        default:
+          selected = true;
+          break;
+      }
+
+      if (selected)
+      {
+        item.Show = item.Navn;
+        outletsList.push(item);
+      }  
     }
   }
 
-  console.log("outletCode: ", item);
+  console.log("outletCode: ", outletsList);
   console.log("load_outlet_code done!");
 }
 
@@ -82,18 +115,19 @@ function select_data(currentOutlet) {
   if (item_in_list_found(outletsList, currentOutlet.Show))
   {
     console.log('saving outlet data...');
-    api.fn.answers({Q0B:  currentOutlet.Navn.toUpperCase()});
-    api.fn.answers({Q0C:  currentOutlet.Navn.toUpperCase()});
+    api.fn.answers({Q0B:  currentOutlet.Navn});
+    api.fn.answers({Q0C:  currentOutlet.Identifikationsnummer});
     api.fn.answers({Q0D:  currentOutlet.Otype}); //Overnatningsform
-    api.fn.answers({Kommune:  currentOutlet.Kommune.toUpperCase()});
-    api.fn.answers({destination_name:  currentOutlet.Dest.toUpperCase()});
+    api.fn.answers({Kommune:  currentOutlet.Kommune});
+    api.fn.answers({destination_name:  currentOutlet.Dest});
+    api.fn.answers({Landsdel_DST:  currentOutlet.Landsdel});
 
-
-    api.fn.answers({urlVar20:  currentOutlet.Navn.toUpperCase()});
-    api.fn.answers({urlVar19:  currentOutlet.Navn.toUpperCase()});
+    api.fn.answers({urlVar20:  currentOutlet.Navn});
+    api.fn.answers({urlVar19:  currentOutlet.Identifikationsnummer});
     api.fn.answers({urlVar18:  currentOutlet.Otype}); //Overnatningsform
-    api.fn.answers({urlVar17:  currentOutlet.Kommune.toUpperCase()});
-    api.fn.answers({urlVar16:  currentOutlet.Dest.toUpperCase()});
+    api.fn.answers({urlVar17:  currentOutlet.Kommune});
+    api.fn.answers({urlVar16:  currentOutlet.Dest});
+    api.fn.answers({urlVar15:  currentOutlet.Landsdel});    
     
   }
   else
