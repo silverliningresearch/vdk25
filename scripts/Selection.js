@@ -57,7 +57,7 @@ function Q22_get_selection()
     {
       Q22A_clear_all_selection();
     }
-    else 
+    else  //count_all>3
     {
       if (count_equal_5 > 3) //if the total number of “5” answers is > 3 then only show answers “5” of Q22 in Q22A
       {
