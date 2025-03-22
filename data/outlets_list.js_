@@ -109,15 +109,6 @@
   "Storrelse": "LILLE"
  },
  {
-  "Identifikationsnummer": 15,
-  "Navn": "HOTEL NIMB",
-  "Kommune": "KØBENHAVN",
-  "Otype": 1,
-  "Landsdel": 1,
-  "Dest": "WONDERFUL COPENHAGEN",
-  "Storrelse": "LILLE"
- },
- {
   "Identifikationsnummer": 16,
   "Navn": "HOTEL PHOENIX COPENHAGEN",
   "Kommune": "KØBENHAVN",
@@ -409,7 +400,7 @@
   "Identifikationsnummer": 56,
   "Navn": "SANDVIG DANHOSTEL",
   "Kommune": "BORNHOLM",
-  "Otype": 6,
+  "Otype": 4,
   "Landsdel": 4,
   "Dest": "DESTINATION BORNHOLM",
   "Storrelse": "LILLE"
@@ -1781,6 +1772,69 @@
   "Landsdel": 1,
   "Dest": "WONDERFUL COPENHAGEN",
   "Storrelse": null
+ },
+ {
+  "Identifikationsnummer": 218,
+  "Navn": "URBAN CAMPER HOSTEL",
+  "Kommune": "KØBENHAVN",
+  "Otype": 4,
+  "Landsdel": 1,
+  "Dest": "WONDERFUL COPENHAGEN",
+  "Storrelse": null
+ },
+ {
+  "Identifikationsnummer": 219,
+  "Navn": "ASCOT HOTEL APS",
+  "Kommune": "KØBENHAVN",
+  "Otype": 1,
+  "Landsdel": 1,
+  "Dest": "WONDERFUL COPENHAGEN",
+  "Storrelse": "STOR"
+ },
+ {
+  "Identifikationsnummer": 220,
+  "Navn": "COPENHAGEN MARRIOTT HOTEL",
+  "Kommune": "KØBENHAVN",
+  "Otype": 1,
+  "Landsdel": 1,
+  "Dest": "WONDERFUL COPENHAGEN",
+  "Storrelse": "STOR"
+ },
+ {
+  "Identifikationsnummer": 221,
+  "Navn": "IMPERIAL HOTEL",
+  "Kommune": "KØBENHAVN",
+  "Otype": 1,
+  "Landsdel": 1,
+  "Dest": "WONDERFUL COPENHAGEN",
+  "Storrelse": "STOR"
+ },
+ {
+  "Identifikationsnummer": 222,
+  "Navn": "HOTEL VIKTORIA",
+  "Kommune": "KØBENHAVN",
+  "Otype": 1,
+  "Landsdel": 1,
+  "Dest": "WONDERFUL COPENHAGEN",
+  "Storrelse": "LILLE"
+ },
+ {
+  "Identifikationsnummer": 223,
+  "Navn": "71 NYHAVN HOTEL",
+  "Kommune": "KØBENHAVN",
+  "Otype": 1,
+  "Landsdel": 1,
+  "Dest": "WONDERFUL COPENHAGEN",
+  "Storrelse": "MELLEM"
+ },
+ {
+  "Identifikationsnummer": 224,
+  "Navn": "COPENHAGEN ADMIRAL HOTEL",
+  "Kommune": "KØBENHAVN",
+  "Otype": 1,
+  "Landsdel": 1,
+  "Dest": "WONDERFUL COPENHAGEN",
+  "Storrelse": "STOR"
  }
 ]    
 `;

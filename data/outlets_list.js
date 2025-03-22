@@ -55,15 +55,6 @@
   "Storrelse": "STOR"
  },
  {
-  "Identifikationsnummer": 9,
-  "Navn": "COPENHAGEN ISLAND",
-  "Kommune": "KØBENHAVN",
-  "Otype": 1,
-  "Landsdel": 1,
-  "Dest": "WONDERFUL COPENHAGEN",
-  "Storrelse": "STOR"
- },
- {
   "Identifikationsnummer": 10,
   "Navn": "CROWNE PLAZA COPENHAGEN TOWERS",
   "Kommune": "KØBENHAVN",
@@ -326,7 +317,7 @@
  },
  {
   "Identifikationsnummer": 48,
-  "Navn": "LISELEJE/ASSERBO",
+  "Navn": "LISELEJE/ASSERBO (FERIEHUS)",
   "Kommune": "HALSNÆS",
   "Otype": 6,
   "Landsdel": 3,
@@ -335,7 +326,7 @@
  },
  {
   "Identifikationsnummer": 49,
-  "Navn": "TISVILDELEJE",
+  "Navn": "TISVILDELEJE (FERIEHUS)",
   "Kommune": "GRIBSKOV",
   "Otype": 6,
   "Landsdel": 3,
@@ -389,7 +380,7 @@
  },
  {
   "Identifikationsnummer": 55,
-  "Navn": "DUEODDE",
+  "Navn": "DUEODDE (FERIEHUS)",
   "Kommune": "BORNHOLM",
   "Otype": 6,
   "Landsdel": 4,
@@ -506,7 +497,7 @@
  },
  {
   "Identifikationsnummer": 70,
-  "Navn": "HUMMINGEN/KRAMNITZE",
+  "Navn": "HUMMINGEN/KRAMNITZE (FERIEHUS)",
   "Kommune": "LOLLAND",
   "Otype": 6,
   "Landsdel": 6,
@@ -515,7 +506,7 @@
  },
  {
   "Identifikationsnummer": 71,
-  "Navn": "MARIELYST / BØTØ STRAND",
+  "Navn": "MARIELYST / BØTØ STRAND (FERIEHUS)",
   "Kommune": "GULDBORGSUND",
   "Otype": 6,
   "Landsdel": 6,
@@ -524,7 +515,7 @@
  },
  {
   "Identifikationsnummer": 72,
-  "Navn": "SKÆRBY STRAND",
+  "Navn": "SKÆRBY STRAND (FERIEHUS)",
   "Kommune": "ODSHERRED",
   "Otype": 6,
   "Landsdel": 6,
@@ -533,7 +524,7 @@
  },
  {
   "Identifikationsnummer": 73,
-  "Navn": "ULVSHALE",
+  "Navn": "ULVSHALE (FERIEHUS)",
   "Kommune": "VORDINGBORG",
   "Otype": 6,
   "Landsdel": 6,
@@ -740,7 +731,7 @@
  },
  {
   "Identifikationsnummer": 97,
-  "Navn": "HASMARK STRAND",
+  "Navn": "HASMARK STRAND (FERIEHUS)",
   "Kommune": "NORDFYN",
   "Otype": 6,
   "Landsdel": 7,
@@ -749,7 +740,7 @@
  },
  {
   "Identifikationsnummer": 98,
-  "Navn": "RISTINGE STRAND",
+  "Navn": "RISTINGE STRAND (FERIEHUS)",
   "Kommune": "LANGELAND",
   "Otype": 6,
   "Landsdel": 7,
@@ -758,7 +749,7 @@
  },
  {
   "Identifikationsnummer": 99,
-  "Navn": "VEJLBY FED STRAND",
+  "Navn": "VEJLBY FED STRAND (FERIEHUS)",
   "Kommune": "MIDDELFART",
   "Otype": 6,
   "Landsdel": 7,
@@ -1001,7 +992,7 @@
  },
  {
   "Identifikationsnummer": 128,
-  "Navn": "BLÅVAND",
+  "Navn": "BLÅVAND (FERIEHUS)",
   "Kommune": "VARDE",
   "Otype": 6,
   "Landsdel": 8,
@@ -1010,7 +1001,7 @@
  },
  {
   "Identifikationsnummer": 129,
-  "Navn": "FANØ BAD",
+  "Navn": "FANØ BAD (FERIEHUS)",
   "Kommune": "FANØ",
   "Otype": 6,
   "Landsdel": 8,
@@ -1019,7 +1010,7 @@
  },
  {
   "Identifikationsnummer": 130,
-  "Navn": "HEJLSMINDE",
+  "Navn": "HEJLSMINDE (FERIEHUS)",
   "Kommune": "KOLDING",
   "Otype": 6,
   "Landsdel": 8,
@@ -1028,7 +1019,7 @@
  },
  {
   "Identifikationsnummer": 131,
-  "Navn": "HEJSAGER STRAND",
+  "Navn": "HEJSAGER STRAND (FERIEHUS)",
   "Kommune": "HADERSLEV",
   "Otype": 6,
   "Landsdel": 8,
@@ -1037,7 +1028,7 @@
  },
  {
   "Identifikationsnummer": 132,
-  "Navn": "HENNE STRAND",
+  "Navn": "HENNE STRAND (FERIEHUS)",
   "Kommune": "VARDE",
   "Otype": 6,
   "Landsdel": 8,
@@ -1046,7 +1037,7 @@
  },
  {
   "Identifikationsnummer": 133,
-  "Navn": "HO BLÅVAND",
+  "Navn": "HO BLÅVAND (FERIEHUS)",
   "Kommune": "VARDE",
   "Otype": 6,
   "Landsdel": 8,
@@ -1055,7 +1046,7 @@
  },
  {
   "Identifikationsnummer": 134,
-  "Navn": "HOUSTRUP",
+  "Navn": "HOUSTRUP (FERIEHUS)",
   "Kommune": "VARDE",
   "Otype": 6,
   "Landsdel": 8,
@@ -1064,7 +1055,7 @@
  },
  {
   "Identifikationsnummer": 135,
-  "Navn": "JEGUM FERIELAND",
+  "Navn": "JEGUM FERIELAND (FERIEHUS)",
   "Kommune": "VARDE",
   "Otype": 6,
   "Landsdel": 8,
@@ -1073,7 +1064,7 @@
  },
  {
   "Identifikationsnummer": 136,
-  "Navn": "KONGSMARK RØMØ",
+  "Navn": "KONGSMARK RØMØ (FERIEHUS)",
   "Kommune": "TØNDER",
   "Otype": 6,
   "Landsdel": 8,
@@ -1082,7 +1073,7 @@
  },
  {
   "Identifikationsnummer": 137,
-  "Navn": "LAKOLK",
+  "Navn": "LAKOLK (FERIEHUS)",
   "Kommune": "TØNDER",
   "Otype": 6,
   "Landsdel": 8,
@@ -1091,7 +1082,7 @@
  },
  {
   "Identifikationsnummer": 138,
-  "Navn": "RINDBY STRAND",
+  "Navn": "RINDBY STRAND (FERIEHUS)",
   "Kommune": "FANØ",
   "Otype": 6,
   "Landsdel": 8,
@@ -1100,7 +1091,7 @@
  },
  {
   "Identifikationsnummer": 139,
-  "Navn": "SKOVMOSE",
+  "Navn": "SKOVMOSE (FERIEHUS)",
   "Kommune": "SØNDERBORG",
   "Otype": 6,
   "Landsdel": 8,
@@ -1109,7 +1100,7 @@
  },
  {
   "Identifikationsnummer": 140,
-  "Navn": "SØNDERHO",
+  "Navn": "SØNDERHO (FERIEHUS)",
   "Kommune": "FANØ",
   "Otype": 6,
   "Landsdel": 8,
@@ -1118,7 +1109,7 @@
  },
  {
   "Identifikationsnummer": 141,
-  "Navn": "VEJERS STRAND",
+  "Navn": "VEJERS STRAND (FERIEHUS)",
   "Kommune": "VARDE",
   "Otype": 6,
   "Landsdel": 8,
@@ -1289,7 +1280,7 @@
  },
  {
   "Identifikationsnummer": 161,
-  "Navn": "EBELTOFT STRAND",
+  "Navn": "EBELTOFT STRAND (FERIEHUS)",
   "Kommune": "SYDDJURS",
   "Otype": 6,
   "Landsdel": 9,
@@ -1298,7 +1289,7 @@
  },
  {
   "Identifikationsnummer": 162,
-  "Navn": "FJELLERUP STRAND",
+  "Navn": "FJELLERUP STRAND (FERIEHUS)",
   "Kommune": "NORDDJURS",
   "Otype": 6,
   "Landsdel": 9,
@@ -1307,7 +1298,7 @@
  },
  {
   "Identifikationsnummer": 163,
-  "Navn": "GRENÅ STRAND",
+  "Navn": "GRENÅ STRAND (FERIEHUS)",
   "Kommune": "NORDDJURS",
   "Otype": 6,
   "Landsdel": 9,
@@ -1316,7 +1307,7 @@
  },
  {
   "Identifikationsnummer": 164,
-  "Navn": "HANDRUP STRAND",
+  "Navn": "HANDRUP STRAND (FERIEHUS)",
   "Kommune": "SYDDJURS",
   "Otype": 6,
   "Landsdel": 9,
@@ -1325,7 +1316,7 @@
  },
  {
   "Identifikationsnummer": 165,
-  "Navn": "JUELSMINDE",
+  "Navn": "JUELSMINDE (FERIEHUS)",
   "Kommune": "HEDENSTED",
   "Otype": 6,
   "Landsdel": 9,
@@ -1334,7 +1325,7 @@
  },
  {
   "Identifikationsnummer": 166,
-  "Navn": "TRUUST",
+  "Navn": "TRUUST (FERIEHUS)",
   "Kommune": "SILKEBORG",
   "Otype": 6,
   "Landsdel": 9,
@@ -1357,15 +1348,6 @@
   "Otype": 1,
   "Landsdel": 10,
   "Dest": "VISITHERNING",
-  "Storrelse": "MELLEM"
- },
- {
-  "Identifikationsnummer": 169,
-  "Navn": "PEAK 12",
-  "Kommune": "VIBORG",
-  "Otype": 1,
-  "Landsdel": 10,
-  "Dest": "AARHUSREGIONEN",
   "Storrelse": "MELLEM"
  },
  {
@@ -1406,7 +1388,7 @@
  },
  {
   "Identifikationsnummer": 174,
-  "Navn": "BJERREGAARD STRAND",
+  "Navn": "BJERREGAARD STRAND (FERIEHUS)",
   "Kommune": "RINGKØBING-SKJERN",
   "Otype": 6,
   "Landsdel": 10,
@@ -1415,7 +1397,7 @@
  },
  {
   "Identifikationsnummer": 175,
-  "Navn": "BORK HAVN",
+  "Navn": "BORK HAVN  (FERIEHUS)",
   "Kommune": "RINGKØBING-SKJERN",
   "Otype": 6,
   "Landsdel": 10,
@@ -1424,7 +1406,7 @@
  },
  {
   "Identifikationsnummer": 176,
-  "Navn": "HARBOØRE",
+  "Navn": "HARBOØRE (FERIEHUS)",
   "Kommune": "LEMVIG",
   "Otype": 6,
   "Landsdel": 10,
@@ -1433,7 +1415,7 @@
  },
  {
   "Identifikationsnummer": 177,
-  "Navn": "HOSTRUP STRAND",
+  "Navn": "HOSTRUP STRAND (FERIEHUS)",
   "Kommune": "SKIVE",
   "Otype": 6,
   "Landsdel": 10,
@@ -1442,7 +1424,7 @@
  },
  {
   "Identifikationsnummer": 178,
-  "Navn": "HVIDE SANDE STRAND",
+  "Navn": "HVIDE SANDE STRAND (FERIEHUS)",
   "Kommune": "RINGKØBING-SKJERN",
   "Otype": 6,
   "Landsdel": 10,
@@ -1451,7 +1433,7 @@
  },
  {
   "Identifikationsnummer": 179,
-  "Navn": "SØNDERVIG STRAND",
+  "Navn": "SØNDERVIG STRAND (FERIEHUS)",
   "Kommune": "RINGKØBING-SKJERN",
   "Otype": 6,
   "Landsdel": 10,
@@ -1460,7 +1442,7 @@
  },
  {
   "Identifikationsnummer": 180,
-  "Navn": "THORSMINDE",
+  "Navn": "THORSMINDE (FERIEHUS)",
   "Kommune": "HOLSTEBRO",
   "Otype": 6,
   "Landsdel": 10,
@@ -1622,7 +1604,7 @@
  },
  {
   "Identifikationsnummer": 200,
-  "Navn": "BLOKHUS",
+  "Navn": "BLOKHUS (FERIEHUS)",
   "Kommune": "JAMMERBUGT",
   "Otype": 6,
   "Landsdel": 11,
@@ -1631,7 +1613,7 @@
  },
  {
   "Identifikationsnummer": 201,
-  "Navn": "KLITMØLLER STRAND",
+  "Navn": "KLITMØLLER STRAND (FERIEHUS)",
   "Kommune": "THISTED",
   "Otype": 6,
   "Landsdel": 11,
@@ -1640,7 +1622,7 @@
  },
  {
   "Identifikationsnummer": 202,
-  "Navn": "LØKKEN",
+  "Navn": "LØKKEN (FERIEHUS)",
   "Kommune": "HJØRRING",
   "Otype": 6,
   "Landsdel": 11,
@@ -1649,7 +1631,7 @@
  },
  {
   "Identifikationsnummer": 203,
-  "Navn": "LØNSTRUP",
+  "Navn": "LØNSTRUP (FERIEHUS)",
   "Kommune": "HJØRRING",
   "Otype": 6,
   "Landsdel": 11,
@@ -1658,7 +1640,7 @@
  },
  {
   "Identifikationsnummer": 204,
-  "Navn": "SALTUM STRAND",
+  "Navn": "SALTUM STRAND (FERIEHUS)",
   "Kommune": "JAMMERBUGT",
   "Otype": 6,
   "Landsdel": 11,
@@ -1667,7 +1649,7 @@
  },
  {
   "Identifikationsnummer": 205,
-  "Navn": "SKAGEN STRAND",
+  "Navn": "SKAGEN STRAND (FERIEHUS)",
   "Kommune": "FREDERIKSHAVN",
   "Otype": 6,
   "Landsdel": 11,
@@ -1676,7 +1658,7 @@
  },
  {
   "Identifikationsnummer": 206,
-  "Navn": "STRANDENE MELLEM HOU OG BISNAP",
+  "Navn": "STRANDENE MELLEM HOU OG BISNAP (FERIEHUS)",
   "Kommune": "AALBORG",
   "Otype": 6,
   "Landsdel": 11,
@@ -1685,7 +1667,7 @@
  },
  {
   "Identifikationsnummer": 207,
-  "Navn": "VESTERVIG",
+  "Navn": "VESTERVIG (FERIEHUS)",
   "Kommune": "THISTED",
   "Otype": 6,
   "Landsdel": 11,
@@ -1694,7 +1676,7 @@
  },
  {
   "Identifikationsnummer": 208,
-  "Navn": "ØSTER HURUP",
+  "Navn": "ØSTER HURUP (FERIEHUS)",
   "Kommune": "MARIAGERFJORD",
   "Otype": 6,
   "Landsdel": 11,
@@ -1727,15 +1709,6 @@
   "Landsdel": 11,
   "Dest": "DESTINATION NORDVESTKYSTEN",
   "Storrelse": "LILLE"
- },
- {
-  "Identifikationsnummer": 213,
-  "Navn": "MARIELYST FERIEPARK OG CAMPING",
-  "Kommune": "GULDBORGSUND",
-  "Otype": 3,
-  "Landsdel": 6,
-  "Dest": "VISITLOLLAND-FALSTER",
-  "Storrelse": "MELLEM"
  },
  {
   "Identifikationsnummer": 214,
@@ -1830,6 +1803,42 @@
  {
   "Identifikationsnummer": 224,
   "Navn": "COPENHAGEN ADMIRAL HOTEL",
+  "Kommune": "KØBENHAVN",
+  "Otype": 1,
+  "Landsdel": 1,
+  "Dest": "WONDERFUL COPENHAGEN",
+  "Storrelse": "STOR"
+ },
+ {
+  "Identifikationsnummer": 225,
+  "Navn": "MILLING HOTEL SØPARK MARIBO",
+  "Kommune": "LOLLAND",
+  "Otype": 1,
+  "Landsdel": 6,
+  "Dest": "VISITLOLLAND-FALSTER",
+  "Storrelse": "MELLEM"
+ },
+ {
+  "Identifikationsnummer": 226,
+  "Navn": "PALADS HOTEL VIBORG",
+  "Kommune": "VIBORG",
+  "Otype": 1,
+  "Landsdel": 10,
+  "Dest": "AARHUSREGIONEN",
+  "Storrelse": "MELLEM"
+ },
+ {
+  "Identifikationsnummer": 227,
+  "Navn": "MARIELYST FAMILIECAMPING",
+  "Kommune": "GULDBORGSUND",
+  "Otype": 3,
+  "Landsdel": 6,
+  "Dest": "VISITLOLLAND-FALSTER",
+  "Storrelse": "MELLEM"
+ },
+ {
+  "Identifikationsnummer": 228,
+  "Navn": "SCANDIC SPECTRUM",
   "Kommune": "KØBENHAVN",
   "Otype": 1,
   "Landsdel": 1,
