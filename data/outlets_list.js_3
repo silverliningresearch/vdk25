@@ -334,15 +334,6 @@
   "Storrelse": "MELLEM"
  },
  {
-  "Identifikationsnummer": 56,
-  "Navn": "SANDVIG DANHOSTEL",
-  "Kommune": "BORNHOLM",
-  "Otype": 4,
-  "Landsdel": 4,
-  "Dest": "DESTINATION BORNHOLM",
-  "Storrelse": "LILLE"
- },
- {
   "Identifikationsnummer": 57,
   "Navn": "FOUR POINTS FLEX PRINDSEN ROSKILDE",
   "Kommune": "ROSKILDE",
@@ -1416,7 +1407,7 @@
  {
   "Identifikationsnummer": 196,
   "Navn": "SKIVEREN CAMPING",
-  "Kommune": "FREDERIKSHAVN",
+  "Kommune": "SKAGEN",
   "Otype": 3,
   "Landsdel": 11,
   "Dest": "DESTINATION NORD",
@@ -1675,6 +1666,15 @@
   "Storrelse": "LILLE"
  },
  {
+  "Identifikationsnummer": 233,
+  "Navn": "1 HOTELS",
+  "Kommune": "KØBENHAVN",
+  "Otype": 1,
+  "Landsdel": 1,
+  "Dest": "WONDERFUL COPENHAGEN",
+  "Storrelse": "STOR"
+ },
+ {
   "Identifikationsnummer": 234,
   "Navn": "HOTEL D´ANGLETERRE",
   "Kommune": "KØBENHAVN",
@@ -1729,31 +1729,13 @@
   "Storrelse": "MELLEM"
  },
  {
-  "Identifikationsnummer": 241,
-  "Navn": "KONVENTUM",
-  "Kommune": "HELSINGØR",
-  "Otype": 1,
-  "Landsdel": 3,
-  "Dest": "WONDERFUL COPENHAGEN",
-  "Storrelse": "STOR"
- },
- {
-  "Identifikationsnummer": 242,
-  "Navn": "SKAGEN HOTEL",
-  "Kommune": "FREDERIKSHAVN",
-  "Otype": 1,
-  "Landsdel": 11,
-  "Dest": "DESTINATION NORD",
-  "Storrelse": "MELLEM"
- },
- {
-  "Identifikationsnummer": 243,
-  "Navn": "DANHOSTEL RINGKØBING",
-  "Kommune": "RINGKØBING-SKJERN",
+  "Identifikationsnummer": 240,
+  "Navn": "PARK VENDIA HOSTEL",
+  "Kommune": "HJØRRING",
   "Otype": 4,
-  "Landsdel": 10,
-  "Dest": "DESTINATION VESTERHAVET",
-  "Storrelse": "MELLEM"
+  "Landsdel": 11,
+  "Dest": "DESTINATION NORDVESTKYSTEN",
+  "Storrelse": "LILLE"
  }
 ]    
 `;
