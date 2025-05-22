@@ -1754,33 +1754,6 @@
   "Landsdel": 10,
   "Dest": "DESTINATION VESTERHAVET",
   "Storrelse": "MELLEM"
- },
- {
-  "Identifikationsnummer": 244,
-  "Navn": "FJELLERUP STRANDS CAMPING",
-  "Kommune": "NORDDJURS",
-  "Otype": 3,
-  "Landsdel": 9,
-  "Dest": "AARHUSREGIONEN",
-  "Storrelse": "MELLEM"
- },
- {
-  "Identifikationsnummer": 245,
-  "Navn": "FIRST CAMP AARHUS",
-  "Kommune": "AARHUS",
-  "Otype": 3,
-  "Landsdel": 9,
-  "Dest": "AARHUSREGIONEN",
-  "Storrelse": "MELLEM"
- },
- {
-  "Identifikationsnummer": 246,
-  "Navn": "SCANDIC THE MAYOR",
-  "Kommune": "AARHUS",
-  "Otype": 1,
-  "Landsdel": 9,
-  "Dest": "AARHUSREGIONEN",
-  "Storrelse": "STOR"
  }
 ]    
 `;
