@@ -298,19 +298,10 @@
   "Storrelse": "MELLEM"
  },
  {
-  "Identifikationsnummer": 52,
-  "Navn": "HOTEL SANDVIG HAVN",
+  "Identifikationsnummer": 51,
+  "Navn": "HOTEL GSH",
   "Kommune": "BORNHOLM",
   "Otype": 1,
-  "Landsdel": 4,
-  "Dest": "DESTINATION BORNHOLM",
-  "Storrelse": "LILLE"
- },
- {
-  "Identifikationsnummer": 53,
-  "Navn": "BORNHOLMS FAMILIECAMPING DUEODDE",
-  "Kommune": "BORNHOLM",
-  "Otype": 3,
   "Landsdel": 4,
   "Dest": "DESTINATION BORNHOLM",
   "Storrelse": "LILLE"
@@ -706,15 +697,6 @@
   "Identifikationsnummer": 103,
   "Navn": "HOSTRUPS HOTEL & RESTAURANT",
   "Kommune": "TØNDER",
-  "Otype": 1,
-  "Landsdel": 8,
-  "Dest": "DESTINATION SØNDERJYLLAND",
-  "Storrelse": "LILLE"
- },
- {
-  "Identifikationsnummer": 104,
-  "Navn": "HOTEL EUROPA AABENRAA",
-  "Kommune": "ÅBENRÅ",
   "Otype": 1,
   "Landsdel": 8,
   "Dest": "DESTINATION SØNDERJYLLAND",
@@ -1781,6 +1763,24 @@
   "Landsdel": 9,
   "Dest": "AARHUSREGIONEN",
   "Storrelse": "STOR"
+ },
+ {
+  "Identifikationsnummer": 247,
+  "Navn": "HOTEL BALKA STRAND",
+  "Kommune": "BORNHOLM",
+  "Otype": 1,
+  "Landsdel": 4,
+  "Dest": "DESTINATION BORNHOLM",
+  "Storrelse": "LILLE"
+ },
+ {
+  "Identifikationsnummer": 249,
+  "Navn": "LYNGHOLT FAMILIECAMPING",
+  "Kommune": "BORNHOLM",
+  "Otype": 3,
+  "Landsdel": 4,
+  "Dest": "DESTINATION BORNHOLM",
+  "Storrelse": "LILLE"
  }
 ]    
 `;
