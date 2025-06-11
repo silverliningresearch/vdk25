@@ -1211,7 +1211,7 @@
   "Navn": "LANDAL SØHØJLANDET",
   "Kommune": "SILKEBORG",
   "Otype": 2,
-  "Landsdel": 10,
+  "Landsdel": 9,
   "Dest": "AARHUSREGIONEN",
   "Storrelse": "STOR"
  },
