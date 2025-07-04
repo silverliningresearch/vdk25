@@ -37,15 +37,6 @@
   "Storrelse": "STOR"
  },
  {
-  "Identifikationsnummer": 5,
-  "Navn": "CLARION HOTEL COPENHAGEN AIRPORT",
-  "Kommune": "TÅRNBY",
-  "Otype": 1,
-  "Landsdel": 1,
-  "Dest": "WONDERFUL COPENHAGEN",
-  "Storrelse": "STOR"
- },
- {
   "Identifikationsnummer": 8,
   "Navn": "COMWELL COPENHAGEN PORTSIDE",
   "Kommune": "KØBENHAVN",
@@ -218,7 +209,7 @@
  },
  {
   "Identifikationsnummer": 39,
-  "Navn": "HOTEL HERLEV KRO",
+  "Navn": "GO HOTEL HERLEV",
   "Kommune": "HERLEV",
   "Otype": 1,
   "Landsdel": 2,
@@ -404,15 +395,6 @@
   "Landsdel": 6,
   "Dest": "DESTINATION SYDKYSTDANMARK",
   "Storrelse": "STOR"
- },
- {
-  "Identifikationsnummer": 67,
-  "Navn": "STOREBÆLT CAMPING OG FERIECENTER",
-  "Kommune": "SLAGELSE",
-  "Otype": 3,
-  "Landsdel": 6,
-  "Dest": "DESTINATION SJÆLLAND",
-  "Storrelse": "MELLEM"
  },
  {
   "Identifikationsnummer": 68,
@@ -1657,15 +1639,6 @@
   "Storrelse": "LILLE"
  },
  {
-  "Identifikationsnummer": 234,
-  "Navn": "HOTEL D´ANGLETERRE",
-  "Kommune": "KØBENHAVN",
-  "Otype": 1,
-  "Landsdel": 1,
-  "Dest": "WONDERFUL COPENHAGEN",
-  "Storrelse": "MELLEM"
- },
- {
   "Identifikationsnummer": 235,
   "Navn": "FOUR POINTS FLEX COPENHAGEN ARENA",
   "Kommune": "KØBENHAVN",
@@ -1729,15 +1702,6 @@
   "Storrelse": "MELLEM"
  },
  {
-  "Identifikationsnummer": 243,
-  "Navn": "DANHOSTEL RINGKØBING",
-  "Kommune": "RINGKØBING-SKJERN",
-  "Otype": 4,
-  "Landsdel": 10,
-  "Dest": "DESTINATION VESTERHAVET",
-  "Storrelse": "MELLEM"
- },
- {
   "Identifikationsnummer": 244,
   "Navn": "FJELLERUP STRANDS CAMPING",
   "Kommune": "NORDDJURS",
@@ -1781,6 +1745,42 @@
   "Landsdel": 4,
   "Dest": "DESTINATION BORNHOLM",
   "Storrelse": "LILLE"
+ },
+ {
+  "Identifikationsnummer": 250,
+  "Navn": "RINGKØBING SKJERN KULTURCENTER (DANHOSTEL SKJERN)",
+  "Kommune": "RINGKØBING-SKJERN",
+  "Otype": 4,
+  "Landsdel": 10,
+  "Dest": "DESTINATION VESTERHAVET",
+  "Storrelse": "MELLEM"
+ },
+ {
+  "Identifikationsnummer": 251,
+  "Navn": "KALUNDBORG CAMPING",
+  "Kommune": "KALUNDBORG",
+  "Otype": 3,
+  "Landsdel": 6,
+  "Dest": "DESTINATION SJÆLLAND",
+  "Storrelse": "MELLEM"
+ },
+ {
+  "Identifikationsnummer": 252,
+  "Navn": "DANLAND HOLIDAY CENTER - FAABORG",
+  "Kommune": "FAABORG-MIDTFYN",
+  "Otype": 2,
+  "Landsdel": 7,
+  "Dest": "DESTINATION FYN",
+  "Storrelse": "MELLEM"
+ },
+ {
+  "Identifikationsnummer": 253,
+  "Navn": "DCU-CAMPING RÅGELEJE STRAND",
+  "Kommune": "GRIBSKOV",
+  "Otype": 3,
+  "Landsdel": 3,
+  "Dest": "VISITNORDSJÆLLAND",
+  "Storrelse": "MELLEM"
  }
 ]    
 `;
