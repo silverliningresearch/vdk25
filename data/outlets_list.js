@@ -506,7 +506,7 @@
  },
  {
   "Identifikationsnummer": 83,
-  "Navn": "CAMP ONE ASSENS STRAND",
+  "Navn": "CITYCAMP ASSENS STRAND",
   "Kommune": "ASSENS",
   "Otype": 3,
   "Landsdel": 7,
@@ -1621,15 +1621,6 @@
   "Storrelse": "LILLE"
  },
  {
-  "Identifikationsnummer": 232,
-  "Navn": "THE HUXLEY COPENHAGEN",
-  "Kommune": "KØBENHAVN",
-  "Otype": 1,
-  "Landsdel": 1,
-  "Dest": "WONDERFUL COPENHAGEN",
-  "Storrelse": "LILLE"
- },
- {
   "Identifikationsnummer": 235,
   "Navn": "FOUR POINTS FLEX COPENHAGEN ARENA",
   "Kommune": "KØBENHAVN",
@@ -1637,15 +1628,6 @@
   "Landsdel": 1,
   "Dest": "WONDERFUL COPENHAGEN",
   "Storrelse": "STOR"
- },
- {
-  "Identifikationsnummer": 236,
-  "Navn": "HOTEL DANMARK",
-  "Kommune": "KØBENHAVN",
-  "Otype": 1,
-  "Landsdel": 1,
-  "Dest": "WONDERFUL COPENHAGEN",
-  "Storrelse": "MELLEM"
  },
  {
   "Identifikationsnummer": 237,
@@ -1690,15 +1672,6 @@
   "Otype": 1,
   "Landsdel": 11,
   "Dest": "DESTINATION NORD",
-  "Storrelse": "MELLEM"
- },
- {
-  "Identifikationsnummer": 244,
-  "Navn": "FJELLERUP STRANDS CAMPING",
-  "Kommune": "NORDDJURS",
-  "Otype": 3,
-  "Landsdel": 9,
-  "Dest": "AARHUSREGIONEN",
   "Storrelse": "MELLEM"
  },
  {
@@ -1747,15 +1720,6 @@
   "Storrelse": "MELLEM"
  },
  {
-  "Identifikationsnummer": 251,
-  "Navn": "KALUNDBORG CAMPING",
-  "Kommune": "KALUNDBORG",
-  "Otype": 3,
-  "Landsdel": 6,
-  "Dest": "DESTINATION SJÆLLAND",
-  "Storrelse": "MELLEM"
- },
- {
   "Identifikationsnummer": 252,
   "Navn": "DANLAND HOLIDAY CENTER - FAABORG",
   "Kommune": "FAABORG-MIDTFYN",
@@ -1772,6 +1736,33 @@
   "Landsdel": 3,
   "Dest": "VISITNORDSJÆLLAND",
   "Storrelse": "MELLEM"
+ },
+ {
+  "Identifikationsnummer": 255,
+  "Navn": "CITIZEN M HOTEL",
+  "Kommune": "KØBENHAVN",
+  "Otype": 1,
+  "Landsdel": 1,
+  "Dest": "WONDERFUL COPENHAGEN",
+  "Storrelse": "STOR"
+ },
+ {
+  "Identifikationsnummer": 256,
+  "Navn": "SORTHAT-MULEBY (FERIEHUS)",
+  "Kommune": "BORNHOLM",
+  "Otype": 6,
+  "Landsdel": 4,
+  "Dest": "DESTINATION BORNHOLM",
+  "Storrelse": "LILLE"
+ },
+ {
+  "Identifikationsnummer": 257,
+  "Navn": "CABINN METRO",
+  "Kommune": "KØBENHAVN",
+  "Otype": 1,
+  "Landsdel": 1,
+  "Dest": "WONDERFUL COPENHAGEN",
+  "Storrelse": "STOR"
  }
 ]    
 `;
