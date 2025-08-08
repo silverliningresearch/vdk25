@@ -1567,15 +1567,6 @@
   "Storrelse": "MELLEM"
  },
  {
-  "Identifikationsnummer": 224,
-  "Navn": "COPENHAGEN ADMIRAL HOTEL",
-  "Kommune": "KØBENHAVN",
-  "Otype": 1,
-  "Landsdel": 1,
-  "Dest": "WONDERFUL COPENHAGEN",
-  "Storrelse": "STOR"
- },
- {
   "Identifikationsnummer": 225,
   "Navn": "MILLING HOTEL SØPARK MARIBO",
   "Kommune": "LOLLAND",
