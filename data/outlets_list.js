@@ -1585,15 +1585,6 @@
   "Storrelse": "MELLEM"
  },
  {
-  "Identifikationsnummer": 227,
-  "Navn": "MARIELYST FAMILIECAMPING",
-  "Kommune": "GULDBORGSUND",
-  "Otype": 3,
-  "Landsdel": 6,
-  "Dest": "VISITLOLLAND-FALSTER",
-  "Storrelse": "MELLEM"
- },
- {
   "Identifikationsnummer": 229,
   "Navn": "HORNE SOMMERLAND (FERIEHUS)",
   "Kommune": "FAABORG-MIDTFYN",
