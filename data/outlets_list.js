@@ -298,15 +298,6 @@
   "Storrelse": "LILLE"
  },
  {
-  "Identifikationsnummer": 54,
-  "Navn": "ROSENGÅRDEN",
-  "Kommune": "BORNHOLM",
-  "Otype": 4,
-  "Landsdel": 4,
-  "Dest": "DESTINATION BORNHOLM",
-  "Storrelse": "LILLE"
- },
- {
   "Identifikationsnummer": 55,
   "Navn": "DUEODDE (FERIEHUS)",
   "Kommune": "BORNHOLM",
@@ -1003,15 +994,6 @@
   "Identifikationsnummer": 144,
   "Navn": "HOTEL RANDERS",
   "Kommune": "RANDERS",
-  "Otype": 1,
-  "Landsdel": 9,
-  "Dest": "AARHUSREGIONEN",
-  "Storrelse": "MELLEM"
- },
- {
-  "Identifikationsnummer": 145,
-  "Navn": "KYSTHOTELLET DJURSLAND",
-  "Kommune": "NORDDJURS",
   "Otype": 1,
   "Landsdel": 9,
   "Dest": "AARHUSREGIONEN",
@@ -1749,6 +1731,42 @@
  {
   "Identifikationsnummer": 257,
   "Navn": "CABINN METRO",
+  "Kommune": "KØBENHAVN",
+  "Otype": 1,
+  "Landsdel": 1,
+  "Dest": "WONDERFUL COPENHAGEN",
+  "Storrelse": "STOR"
+ },
+ {
+  "Identifikationsnummer": 258,
+  "Navn": "ØSTERSØSTRAND CAMPING",
+  "Kommune": "GULDBORGSUND",
+  "Otype": 3,
+  "Landsdel": 6,
+  "Dest": "VISITLOLLAND-FALSTER",
+  "Storrelse": "MELLEM"
+ },
+ {
+  "Identifikationsnummer": 259,
+  "Navn": "ORØ STRANDCAMPING",
+  "Kommune": "HOLBÆK",
+  "Otype": 3,
+  "Landsdel": 6,
+  "Dest": "DESTINATION SJÆLLAND",
+  "Storrelse": "MELLEM"
+ },
+ {
+  "Identifikationsnummer": 260,
+  "Navn": "GJERRILD NORDSTRAND CAMPING",
+  "Kommune": "GRENAA",
+  "Otype": 3,
+  "Landsdel": 9,
+  "Dest": "AARHUSREGIONEN",
+  "Storrelse": "MELLEM"
+ },
+ {
+  "Identifikationsnummer": 261,
+  "Navn": "AXEL HOTEL GULDSMEDEN",
   "Kommune": "KØBENHAVN",
   "Otype": 1,
   "Landsdel": 1,
