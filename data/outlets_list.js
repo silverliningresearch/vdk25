@@ -1772,6 +1772,24 @@
   "Landsdel": 1,
   "Dest": "WONDERFUL COPENHAGEN",
   "Storrelse": "STOR"
+ },
+ {
+  "Identifikationsnummer": 262,
+  "Navn": "HOTEL MARINA",
+  "Kommune": "NORDDJURS",
+  "Otype": 1,
+  "Landsdel": 9,
+  "Dest": "AARHUSREGIONEN",
+  "Storrelse": "MELLEM"
+ },
+ {
+  "Identifikationsnummer": 263,
+  "Navn": "VESTERLYNG CAMPING",
+  "Kommune": "ODSHERRED",
+  "Otype": 3,
+  "Landsdel": 6,
+  "Dest": "ODSHERRED",
+  "Storrelse": "MELLEM"
  }
 ]    
 `;
