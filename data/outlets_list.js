@@ -1711,15 +1711,6 @@
   "Storrelse": "MELLEM"
  },
  {
-  "Identifikationsnummer": 255,
-  "Navn": "CITIZEN M HOTEL",
-  "Kommune": "KØBENHAVN",
-  "Otype": 1,
-  "Landsdel": 1,
-  "Dest": "WONDERFUL COPENHAGEN",
-  "Storrelse": "STOR"
- },
- {
   "Identifikationsnummer": 256,
   "Navn": "SORTHAT-MULEBY (FERIEHUS)",
   "Kommune": "BORNHOLM",
