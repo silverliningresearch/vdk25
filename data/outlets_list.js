@@ -1781,6 +1781,51 @@
   "Landsdel": 6,
   "Dest": "ODSHERRED",
   "Storrelse": "MELLEM"
+ },
+ {
+  "Identifikationsnummer": 264,
+  "Navn": "KILDEGAARD TISVILDE",
+  "Kommune": "GRIBSKOV",
+  "Otype": 1,
+  "Landsdel": 3,
+  "Dest": "VISITNORDSJÆLLAND",
+  "Storrelse": null
+ },
+ {
+  "Identifikationsnummer": 265,
+  "Navn": "SCANDIC HOTEL ODENSE",
+  "Kommune": "ODENSE",
+  "Otype": 1,
+  "Landsdel": 7,
+  "Dest": "DESTINATION FYN",
+  "Storrelse": "STOR"
+ },
+ {
+  "Identifikationsnummer": 266,
+  "Navn": "HOTEL FUGLSØCENTRET",
+  "Kommune": "SYDDJURS",
+  "Otype": 1,
+  "Landsdel": 9,
+  "Dest": "AARHUSREGIONEN",
+  "Storrelse": "STOR"
+ },
+ {
+  "Identifikationsnummer": 267,
+  "Navn": "HOTEL RØDE-KRO",
+  "Kommune": "ÅBENRÅ",
+  "Otype": 1,
+  "Landsdel": 8,
+  "Dest": "DESTINATION SØNDERJYLLAND",
+  "Storrelse": "STOR"
+ },
+ {
+  "Identifikationsnummer": 268,
+  "Navn": "DANHOSTEL COPENHAGEN CITY",
+  "Kommune": "KØBENHAVN",
+  "Otype": 4,
+  "Landsdel": 1,
+  "Dest": "WONDERFUL COPENHAGEN",
+  "Storrelse": "STOR"
  }
 ]    
 `;
