@@ -761,7 +761,7 @@
   "Navn": "LALANDIA SØNDERVIG",
   "Kommune": "RINGKØBING-SKJERN",
   "Otype": 2,
-  "Landsdel": 8,
+  "Landsdel": 10,
   "Dest": "DESTINATION VESTERHAVET",
   "Storrelse": "STOR"
  },
