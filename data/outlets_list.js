@@ -704,7 +704,7 @@
  },
  {
   "Identifikationsnummer": 108,
-  "Navn": "THE NOTE (SCANDIC JACOB GADE)",
+  "Navn": "THE NOTE",
   "Kommune": "VEJLE",
   "Otype": 1,
   "Landsdel": 8,
