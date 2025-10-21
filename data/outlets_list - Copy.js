@@ -1776,10 +1776,10 @@
  {
   "Identifikationsnummer": 263,
   "Navn": "VESTERLYNG CAMPING",
-  "Kommune": "KALUNDBORG",
+  "Kommune": "ODSHERRED",
   "Otype": 3,
   "Landsdel": 6,
-  "Dest": "DESTINATION SJÆLLAND",
+  "Dest": "ODSHERRED",
   "Storrelse": "MELLEM"
  },
  {
