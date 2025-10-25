@@ -181,6 +181,15 @@
   "Storrelse": "STOR"
  },
  {
+  "Identifikationsnummer": 31,
+  "Navn": "A & O COPENHAGEN SYDHAVN",
+  "Kommune": "KØBENHAVN",
+  "Otype": 4,
+  "Landsdel": 1,
+  "Dest": "WONDERFUL COPENHAGEN",
+  "Storrelse": "STOR"
+ },
+ {
   "Identifikationsnummer": 34,
   "Navn": "COPENHAGEN CITY HOSTEL",
   "Kommune": "KØBENHAVN",
@@ -223,7 +232,7 @@
   "Otype": 3,
   "Landsdel": 2,
   "Dest": "WONDERFUL COPENHAGEN",
-  "Storrelse": null
+  "Storrelse": "STOR"
  },
  {
   "Identifikationsnummer": 41,
@@ -704,7 +713,7 @@
  },
  {
   "Identifikationsnummer": 108,
-  "Navn": "THE NOTE",
+  "Navn": "THE NOTE (SCANDIC JACOB GADE)",
   "Kommune": "VEJLE",
   "Otype": 1,
   "Landsdel": 8,
@@ -1519,7 +1528,7 @@
   "Otype": 4,
   "Landsdel": 1,
   "Dest": "WONDERFUL COPENHAGEN",
-  "Storrelse": null
+  "Storrelse": "STOR"
  },
  {
   "Identifikationsnummer": 218,
@@ -1528,7 +1537,7 @@
   "Otype": 4,
   "Landsdel": 1,
   "Dest": "WONDERFUL COPENHAGEN",
-  "Storrelse": null
+  "Storrelse": "STOR"
  },
  {
   "Identifikationsnummer": 221,
@@ -1684,15 +1693,6 @@
   "Storrelse": "LILLE"
  },
  {
-  "Identifikationsnummer": 250,
-  "Navn": "RINGKØBING SKJERN KULTURCENTER (DANHOSTEL SKJERN)",
-  "Kommune": "RINGKØBING-SKJERN",
-  "Otype": 4,
-  "Landsdel": 10,
-  "Dest": "DESTINATION VESTERHAVET",
-  "Storrelse": "MELLEM"
- },
- {
   "Identifikationsnummer": 252,
   "Navn": "DANLAND HOLIDAY CENTER - FAABORG",
   "Kommune": "FAABORG-MIDTFYN",
@@ -1789,7 +1789,7 @@
   "Otype": 1,
   "Landsdel": 3,
   "Dest": "VISITNORDSJÆLLAND",
-  "Storrelse": null
+  "Storrelse": "STOR"
  },
  {
   "Identifikationsnummer": 265,
@@ -1816,15 +1816,6 @@
   "Otype": 1,
   "Landsdel": 8,
   "Dest": "DESTINATION SØNDERJYLLAND",
-  "Storrelse": "STOR"
- },
- {
-  "Identifikationsnummer": 268,
-  "Navn": "DANHOSTEL COPENHAGEN CITY",
-  "Kommune": "KØBENHAVN",
-  "Otype": 4,
-  "Landsdel": 1,
-  "Dest": "WONDERFUL COPENHAGEN",
   "Storrelse": "STOR"
  }
 ]    
